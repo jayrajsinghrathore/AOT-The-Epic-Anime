@@ -12,7 +12,7 @@ export function VideoHero() {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/50 z-10" />
 
-      {/* Video background (replacing the image) */}
+      {/* Video background  */}
       <video
         autoPlay
         muted
