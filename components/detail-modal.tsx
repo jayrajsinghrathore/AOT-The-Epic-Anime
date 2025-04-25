@@ -35,7 +35,7 @@ export function DetailModal({
   }, [isOpen])
 
   // Close modal with escape key
-  useEffect(() => {
+    useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose()
     }
