@@ -8,7 +8,7 @@ import { useParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft } from "lucide-react"
 
-// Character data - in a real app, this would come from a database or API
+
 const charactersData = {
   "eren-yeager": {
     name: "Eren Yeager",
